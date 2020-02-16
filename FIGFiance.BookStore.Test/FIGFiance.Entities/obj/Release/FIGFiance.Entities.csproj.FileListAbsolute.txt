@@ -1,4 +1,0 @@
-C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.Entities\bin\Release\FIGFiance.Entities.dll
-C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.Entities\bin\Release\FIGFiance.Entities.pdb
-C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.Entities\obj\Release\FIGFiance.Entities.dll
-C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.Entities\obj\Release\FIGFiance.Entities.pdb
