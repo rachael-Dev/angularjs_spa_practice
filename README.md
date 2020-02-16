@@ -5,16 +5,23 @@ The Dependency Inversion principle (DIP) helps to loosely couple my code by ensu
 
 For those three delivery options, DeliveryServiceBase class is defined as a parent class to handle the common parts for all options, such as base cost, JuneToAugust factor, SepFactor, otherMonthFactor and the calcution of delivery cost. MotorbikeService, TrainService and AircraftService are concrete classes. Every concrete class has their own delivery information requires an instance of a DEPENDENCY to work.
 
---- DeliveryServiceBase	(parent class)																	IDeliveryInfo (interface) ----
-  |_ MotorbikeService  ----> public MotorbikeService(IDeliveryInfo deliData)       <---- class MotorbikeDeliverInfor: IDeliveryInfo _|
-  |_ TrainService	   ----> public TrainService(IDeliveryInfo deliData)           <---- class TrainDeliverInfor: IDeliveryInfo     _|
-  |_ AircraftService   ----> public AircraftService(IDeliveryInfo deliData)        <---- class AircraftDeliverInfor: IDeliveryInfo  _|
+--- DeliveryServiceBase	(parent class)																	
+  |_ MotorbikeService  ----> public MotorbikeService(IDeliveryInfo deliData)
+  |_ TrainService	   ----> public TrainService(IDeliveryInfo deliData)
+  |_ AircraftService   ----> public AircraftService(IDeliveryInfo deliData)
 
-The benefit:
+
+--- IDeliveryInfo (interface)
+ |_ MotorbikeDeliverInfor
+ |_ TrainDeliverInfor
+ |_ AircraftDeliverInfor
+ 
+ 
+* The benefit:
 loosely coupled and easily maintainable, scalable
 
 ==================
-Time Summary:
+* Time Summary:
 preparation: 2 hours
 coding: 6 hours without testing
 styling: 30 minutes
