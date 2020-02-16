@@ -5,26 +5,26 @@ The Dependency Inversion principle (DIP) helps to loosely couple my code by ensu
 
 For those three delivery options, DeliveryServiceBase class is defined as a parent class to handle the common parts for all options, such as base cost, JuneToAugust factor, SepFactor, otherMonthFactor and the calcution of delivery cost. MotorbikeService, TrainService and AircraftService are concrete classes. Every concrete class has their own delivery information requires an instance of a DEPENDENCY to work.
 
---- DeliveryServiceBase	(parent class)																	
-  |_ MotorbikeService  ----> public MotorbikeService(IDeliveryInfo deliData)
-  |_ TrainService	   ----> public TrainService(IDeliveryInfo deliData)
-  |_ AircraftService   ----> public AircraftService(IDeliveryInfo deliData)
+--- DeliveryServiceBase	(parent class) <br />																	
+  |_ MotorbikeService  ----> public MotorbikeService(IDeliveryInfo deliData) <br />
+  |_ TrainService	   ----> public TrainService(IDeliveryInfo deliData) <br />
+  |_ AircraftService   ----> public AircraftService(IDeliveryInfo deliData) <br />
 
 
---- IDeliveryInfo (interface)
- |_ MotorbikeDeliverInfor
- |_ TrainDeliverInfor
- |_ AircraftDeliverInfor
+--- IDeliveryInfo (interface) <br />
+ |_ MotorbikeDeliverInfo r<br />
+ |_ TrainDeliverInfor <br />
+ |_ AircraftDeliverInfor <br />
  
  
 * The benefit: <br />
 loosely coupled and easily maintainable, scalable
 
 ==================
-* Time Summary:
-preparation: 2 hours
-coding: 6 hours without testing
-styling: 30 minutes
-Building & testing: 4.5 hours
+* Time Summary:<br />
+preparation: 2 hours<br />
+coding: 6 hours without testing<br />
+styling: 30 minutes<br />
+Building & testing: 4.5 hours<br /><br />
 
 As this practice is quite simple in front end and use Bootstramp for styling, there is no Sass or Less, just a short normal site.css included
