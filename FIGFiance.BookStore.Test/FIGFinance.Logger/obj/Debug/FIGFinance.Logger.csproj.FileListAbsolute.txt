@@ -1,0 +1,15 @@
+D:\PulseProjects\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.csprojResolveAssemblyReference.cache
+D:\PulseProjects\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.dll
+D:\PulseProjects\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.pdb
+D:\PulseProjects\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.dll
+D:\PulseProjects\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.pdb
+D:\PulseProjects\FIGFiance.BookStore.Test_v1\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.dll
+D:\PulseProjects\FIGFiance.BookStore.Test_v1\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.pdb
+D:\PulseProjects\FIGFiance.BookStore.Test_v1\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.csprojResolveAssemblyReference.cache
+D:\PulseProjects\FIGFiance.BookStore.Test_v1\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.dll
+D:\PulseProjects\FIGFiance.BookStore.Test_v1\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Debug\FIGFinance.Logger.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Debug\FIGFinance.Logger.csprojResolveAssemblyReference.cache

@@ -1,0 +1,48 @@
+﻿<div class="row">
+    <div class="panel panel-primary">
+        <div class="panel-heading clearfix"> 
+            <h4 class="panel-title pull-left" style="padding-top: 7.5px;">FIG Book Store</h4>
+            <div class="input-group">
+                <input id="inputSearchBooks" type="search" ng-model="seachCriteria.filterBooks" class="form-control shortInputSearch" placeholder="search Books.." ng-keypress="checkIfEnterKeyWasPressed_Books($event)" />
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" ng-click="search(seachCriteria.filterBooks);"><i class="glyphicon glyphicon-search"></i></button>
+                    <button class="btn btn-primary" ng-click="clearSearch();"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <!--<pre>{{bookData.Items}}</pre>
+        <pre>{{seachCriteria.filterBooks}}</pre>-->
+
+            <div class="row d-flex ">
+                <div class="col-lg-2  col-md-4 col-sm-6 col-xs-12 col-12 bookblock " ng-repeat="book in bookData.Items">
+                    <!--<div class="media">
+                        <div class="media-body"></div>
+                    </div>-->
+                    <a class="" href="javascript:void(0)" title="View {{book.VolumeInfor.Title}} details">
+                        <img class="media-object" height="120" ng-src="{{book.VolumeInfor.ImagelLinks.Thumbnail}}" alt="{{book.VolumeInfor.Title}}" ng-click="OpenDetailPopup(book)" />
+                    </a><br />
+                    <h5 class="media-heading" ng-click="OpenDetailPopup(book.ID)">{{book.VolumeInfor.Title}}</h5>
+                    {{book.VolumeInfor.Authors.join(', ')}}<br />{{book.VolumeInfor.PublishDate}}
+                    <!--<span ng-if="book.VolumeInfor.Subtitle">
+            Sub-Title: <strong>{{book.VolumeInfor.Subtitle}}</strong>
+            <br />
+        </span>
+        Author: <strong>{{book.VolumeInfor.Authors.join(', ')}}</strong>
+        <br />
+        Published Date: <strong>{{book.VolumeInfor.PublishDate}}</strong>
+        <br />
+        Publisher: <strong>{{book.VolumeInfor.Publisher}}</strong>-->
+                    <br />
+
+                    <!--<br /><br />-->
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="text-center">                
+                Rachael's @2020
+            </div>
+        </div>
+    </div>
+</div>

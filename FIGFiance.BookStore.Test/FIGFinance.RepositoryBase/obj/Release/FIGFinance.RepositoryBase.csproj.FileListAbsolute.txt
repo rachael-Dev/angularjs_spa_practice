@@ -1,0 +1,7 @@
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\bin\Release\FIGFinance.RepositoryBase.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\bin\Release\FIGFinance.RepositoryBase.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\bin\Release\FIGFiance.Entities.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\bin\Release\FIGFiance.Entities.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\obj\Release\FIGFinance.RepositoryBase.csprojResolveAssemblyReference.cache
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\obj\Release\FIGFinance.RepositoryBase.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.RepositoryBase\obj\Release\FIGFinance.RepositoryBase.pdb

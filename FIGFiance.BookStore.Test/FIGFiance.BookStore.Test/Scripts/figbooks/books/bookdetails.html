@@ -1,0 +1,52 @@
+﻿
+<div class="modal-header popup-header">
+    <!--<h1 class="modal-title" id="exampleModalLongTitle"></h1>-->
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="closeModal()"> <span aria-hidden="true">&times;</span> </button>
+</div>
+<div class="modal-body pop-height" id="modal-body" ng-init=""> 
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 " >
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4>{{bookItem.VolumeInfor.Title}}</h4>
+                </div>
+                <div class="panel-body" ng-if="!loadingbookItem">
+                    <div class="media d-flex">
+                        <div class="pull-left">
+                            <a href="javascript:void(0)" title="View {{bookItem.VolumeInfor.Title}} details">
+                                <img class="media-object" height="120" ng-src="{{bookItem.VolumeInfor.ImagelLinks.Thumbnail}}" alt="{{bookItem.VolumeInfor.Title}}" />
+                            </a>
+                            <br />
+                            <strong>Title: </strong>{{bookItem.VolumeInfor.Title}}<br />
+                            <strong>Author: </strong>{{bookItem.VolumeInfor.Authors.join(', ')}}<br />
+                            <strong>Date: </strong>{{bookItem.VolumeInfor.PublishDate}}
+                        </div>
+                        <div class="flex-grow-1" ng-bind-html="bookItem.VolumeInfor.Description | html">
+                        </div>                        
+                    </div>
+                    <br />
+                </div>                
+                <div ng-if="loadingbookItem">
+                    <div class="col-xs-4"></div>
+                    <div class="col-xs-4">
+                        <i class="fa fa-refresh fa-4x fa-spin"></i> <label class="label label-primary">Loading book data...</label>
+                    </div>
+                    <div class="col-xs-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h5 class="pull-left">Ship via</h5><br />
+</div>
+
+<div class="modal-footer border-tp">    
+    <div class="">
+        <div ng-repeat="option in shipMethods track by $index" class="col-xs-12 col-md-4 col-lg-3 "  >
+            
+            <label for="rad_{{option.DeliveryService}}"><input id="rad_{{option.DeliveryService}}" type="radio" name="shipvia" ng-value="option" ng-model="ship.selectedOption" /> {{ option.DeliveryService }} ${{option.DeliveryCost}}</label>
+        </div>
+        <br />       
+
+    </div>
+    <button class="btn btn-primary common-btn" type="button" ng-click="ShipBooks()">BUY</button>
+</div>

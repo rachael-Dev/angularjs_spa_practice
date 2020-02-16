@@ -1,0 +1,4 @@
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Release\FIGFinance.Logger.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\bin\Release\FIGFinance.Logger.pdb
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Release\FIGFinance.Logger.dll
+C:\Practice\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFiance.BookStore.Test\FIGFinance.Logger\obj\Release\FIGFinance.Logger.pdb
